@@ -1,12 +1,12 @@
-Avalon Gen2 Hasher
+Avalon Gen3 Hasher
 ------------------
 
-This project contains a circuit board, firmware and cgminer/bfgminer patch to get the new Avalon Gen2 ASICs (A3255Q48) hashing.
+This project contains a circuit board, firmware and cgminer/bfgminer patch to get the new Avalon Gen3 ASICs (A3233Q48) hashing.
 
 **Board features:**
 
   - Very efficient (~90%) DC/DC converter to power the ASICs
-  - Adjustable voltage (0.85 - 1.25 V) to choose between efficiency and overclocking
+  - Adjustable voltage (0.75 - 1.25 V) to choose between efficiency and overclocking
   - USB-Interface to connect to a host running cgminer or bfgminer
   - TWI interface to chain multiple boards together
   - 100% flat surface on the bottom side to mount a usual heatsink
@@ -14,7 +14,6 @@ This project contains a circuit board, firmware and cgminer/bfgminer patch to ge
   - Fan connector with rotation speed measurement and PWM-control
   - Indicator LED to report USB-activity
   - 4-layer PCB for optimal heat/current transportation
-  - Two board designs available: one for 10 and another for 16 ASICs
 
 **cgminer/bfgminer patch features:**
 
@@ -25,15 +24,12 @@ This project contains a circuit board, firmware and cgminer/bfgminer patch to ge
 **Get support:**
 
 * [Forum thread]
-*  \# [avalon2] on [freenode IRC]
+* - Will be updated soon.
 
 **Get a board:**
 
 Someone is selling some boards in the [Forum thread] soon.
 
+  [Forum thread]: comming soon.
 
-
-  [Forum thread]: https://bitcointalk.org/index.php?topic=323175.0
-  [avalon2]: irc://chat.au.freenode.net:6667/avalon2
-  [freenode IRC]: http://freenode.net
 
