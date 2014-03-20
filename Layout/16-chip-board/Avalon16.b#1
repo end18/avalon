@@ -9,7 +9,7 @@
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -5215,16 +5215,16 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <wire x1="15.494" y1="26.67" x2="25.908" y2="26.67" width="0.3048" layer="15"/>
 <wire x1="8.636" y1="35.179" x2="8.636" y2="33.528" width="0.3048" layer="15"/>
 <wire x1="8.636" y1="33.528" x2="15.494" y2="26.67" width="0.3048" layer="15"/>
-<wire x1="124.719" y1="37.978" x2="133.858" y2="37.973" width="0" layer="19" extent="1-16"/>
-<wire x1="117.42" y1="55.88" x2="126.525" y2="55.88" width="0" layer="19" extent="1-16"/>
-<wire x1="126.525" y1="55.88" x2="127.546" y2="54.478" width="0" layer="19" extent="1-16"/>
+<wire x1="124.719" y1="37.978" x2="133.858" y2="37.973" width="0.3048" layer="2"/>
+<wire x1="117.42" y1="55.88" x2="126.525" y2="55.88" width="0.3048" layer="2"/>
+<wire x1="126.525" y1="55.88" x2="127.546" y2="54.478" width="0.3048" layer="2"/>
 <wire x1="135.42" y1="37.978" x2="135.42" y2="36.478" width="0" layer="19" extent="1-16"/>
-<wire x1="117.42" y1="37.978" x2="124.719" y2="37.978" width="0" layer="19" extent="1-16"/>
+<wire x1="117.42" y1="37.978" x2="124.719" y2="37.978" width="0.3048" layer="2"/>
 <wire x1="99.42" y1="37.978" x2="117.42" y2="37.978" width="0.3048" layer="2"/>
 <wire x1="135.42" y1="37.978" x2="124.719" y2="37.978" width="0" layer="19" extent="1-16"/>
-<wire x1="133.858" y1="37.973" x2="133.858" y2="51.689" width="0" layer="19" extent="1-16"/>
-<wire x1="127.546" y1="54.478" x2="130.688" y2="54.478" width="0" layer="19" extent="1-16"/>
-<wire x1="130.688" y1="54.478" x2="133.858" y2="51.689" width="0" layer="19" extent="1-16"/>
+<wire x1="133.858" y1="37.973" x2="133.858" y2="51.689" width="0.3048" layer="2"/>
+<wire x1="127.546" y1="54.478" x2="130.688" y2="54.478" width="0.3048" layer="2"/>
+<wire x1="130.688" y1="54.478" x2="133.858" y2="51.689" width="0.3048" layer="2"/>
 <via x="9.42" y="54.478" extent="1-16" drill="0.3"/>
 <via x="27.42" y="54.478" extent="1-16" drill="0.3"/>
 <via x="45.42" y="54.478" extent="1-16" drill="0.3"/>
@@ -5241,7 +5241,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <wire x1="135.42" y1="36.478" x2="135.42" y2="36.478" width="0" layer="19" extent="1-16"/>
 <via x="99.42" y="54.478" extent="1-16" drill="0.3"/>
 <via x="117.42" y="54.478" extent="1-16" drill="0.3"/>
-<wire x1="127.546" y1="54.478" x2="127.546" y2="54.478" width="0" layer="19" extent="1-16"/>
+<via x="127.546" y="54.478" extent="1-16" drill="0.3"/>
 <via x="25.908" y="26.67" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="REPORT_N">

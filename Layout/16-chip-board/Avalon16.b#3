@@ -9,7 +9,7 @@
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -2432,10 +2432,10 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <via x="105.723" y="43.18" extent="1-16" drill="0.6"/>
 <via x="123.723" y="43.18" extent="1-16" drill="0.6"/>
 <via x="143.3232" y="41.6306" extent="1-16" drill="0.6"/>
-<wire x1="132.08" y1="51.1556" x2="132.08" y2="51.1556" width="0" layer="19" extent="1-16"/>
-<wire x1="137.16" y1="49.022" x2="137.16" y2="49.022" width="0" layer="19" extent="1-16"/>
+<via x="132.08" y="51.1556" extent="1-16" drill="0.6"/>
+<via x="137.16" y="49.022" extent="1-16" drill="0.6"/>
 <via x="120.7008" y="50.673" extent="1-16" drill="0.6"/>
-<wire x1="138.5824" y1="50.6984" x2="138.5824" y2="50.6984" width="0" layer="19" extent="1-16"/>
+<via x="138.5824" y="50.6984" extent="1-16" drill="0.6"/>
 <via x="114.0714" y="51.1556" extent="1-16" drill="0.6"/>
 <via x="102.6668" y="50.6984" extent="1-16" drill="0.6"/>
 <via x="96.0628" y="51.1302" extent="1-16" drill="0.6"/>
@@ -2452,8 +2452,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <via x="84.709" y="68.453" extent="1-16" drill="0.6"/>
 <via x="102.743" y="68.453" extent="1-16" drill="0.6"/>
 <via x="120.65" y="68.453" extent="1-16" drill="0.6"/>
-<wire x1="138.684" y1="68.453" x2="138.684" y2="68.453" width="0" layer="19" extent="1-16"/>
-<wire x1="123.698" y1="61.087" x2="123.698" y2="61.087" width="0" layer="19" extent="1-16"/>
+<via x="138.684" y="68.453" extent="1-16" drill="0.6"/>
+<via x="123.698" y="61.087" extent="1-16" drill="0.6"/>
 <via x="105.664" y="61.087" extent="1-16" drill="0.6"/>
 <via x="87.757" y="61.087" extent="1-16" drill="0.6"/>
 <via x="69.723" y="61.087" extent="1-16" drill="0.6"/>
@@ -2466,11 +2466,11 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <via x="92.964" y="64.77" extent="1-16" drill="0.6"/>
 <via x="110.998" y="68.326" extent="1-16" drill="0.6"/>
 <via x="110.998" y="64.77" extent="1-16" drill="0.6"/>
-<wire x1="128.905" y1="68.326" x2="128.905" y2="68.326" width="0" layer="19" extent="1-16"/>
-<wire x1="128.905" y1="64.77" x2="128.905" y2="64.77" width="0" layer="19" extent="1-16"/>
+<via x="128.905" y="68.326" extent="1-16" drill="0.6"/>
+<via x="128.905" y="64.77" extent="1-16" drill="0.6"/>
 <via x="95.123" y="46.863" extent="1-16" drill="0.6"/>
 <via x="112.395" y="46.863" extent="1-16" drill="0.6"/>
-<wire x1="130.556" y1="46.736" x2="130.556" y2="46.736" width="0" layer="19" extent="1-16"/>
+<via x="130.556" y="46.736" extent="1-16" drill="0.6"/>
 <polygon width="0.2286" layer="1" isolate="0.1524">
 <vertex x="0" y="70"/>
 <vertex x="145" y="70"/>
@@ -4613,14 +4613,14 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <via x="117.045" y="40.603" extent="1-16" drill="0.4"/>
 <via x="117.045" y="42.353" extent="1-16" drill="0.4"/>
 <via x="118.795" y="42.353" extent="1-16" drill="0.4"/>
-<wire x1="135.92" y1="43.228" x2="135.92" y2="43.228" width="0" layer="19" extent="1-16"/>
-<wire x1="134.17" y1="43.228" x2="134.17" y2="43.228" width="0" layer="19" extent="1-16"/>
-<wire x1="137.67" y1="41.478" x2="137.67" y2="41.478" width="0" layer="19" extent="1-16"/>
-<wire x1="135.92" y1="39.728" x2="135.92" y2="39.728" width="0" layer="19" extent="1-16"/>
-<wire x1="136.795" y1="40.603" x2="136.795" y2="40.603" width="0" layer="19" extent="1-16"/>
-<wire x1="135.045" y1="40.603" x2="135.045" y2="40.603" width="0" layer="19" extent="1-16"/>
-<wire x1="135.045" y1="42.353" x2="135.045" y2="42.353" width="0" layer="19" extent="1-16"/>
-<wire x1="136.795" y1="42.353" x2="136.795" y2="42.353" width="0" layer="19" extent="1-16"/>
+<via x="135.92" y="43.228" extent="1-16" drill="0.4"/>
+<via x="134.17" y="43.228" extent="1-16" drill="0.4"/>
+<via x="137.67" y="41.478" extent="1-16" drill="0.4"/>
+<via x="135.92" y="39.728" extent="1-16" drill="0.4"/>
+<via x="136.795" y="40.603" extent="1-16" drill="0.4"/>
+<via x="135.045" y="40.603" extent="1-16" drill="0.4"/>
+<via x="135.045" y="42.353" extent="1-16" drill="0.4"/>
+<via x="136.795" y="42.353" extent="1-16" drill="0.4"/>
 <via x="106.0274" y="66.9798" extent="1-16" drill="0.6"/>
 <via x="99.652" y="68.326" extent="1-16" drill="0.6"/>
 <via x="90.889" y="58.674" extent="1-16" drill="0.6"/>
@@ -4655,14 +4655,14 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <via x="117.045" y="58.603" extent="1-16" drill="0.4"/>
 <via x="117.045" y="60.353" extent="1-16" drill="0.4"/>
 <via x="118.795" y="60.353" extent="1-16" drill="0.4"/>
-<wire x1="135.92" y1="61.228" x2="135.92" y2="61.228" width="0" layer="19" extent="1-16"/>
-<wire x1="134.17" y1="61.228" x2="134.17" y2="61.228" width="0" layer="19" extent="1-16"/>
-<wire x1="137.67" y1="59.478" x2="137.67" y2="59.478" width="0" layer="19" extent="1-16"/>
-<wire x1="135.92" y1="57.728" x2="135.92" y2="57.728" width="0" layer="19" extent="1-16"/>
-<wire x1="136.795" y1="58.603" x2="136.795" y2="58.603" width="0" layer="19" extent="1-16"/>
-<wire x1="135.045" y1="58.603" x2="135.045" y2="58.603" width="0" layer="19" extent="1-16"/>
-<wire x1="135.045" y1="60.353" x2="135.045" y2="60.353" width="0" layer="19" extent="1-16"/>
-<wire x1="136.795" y1="60.353" x2="136.795" y2="60.353" width="0" layer="19" extent="1-16"/>
+<via x="135.92" y="61.228" extent="1-16" drill="0.4"/>
+<via x="134.17" y="61.228" extent="1-16" drill="0.4"/>
+<via x="137.67" y="59.478" extent="1-16" drill="0.4"/>
+<via x="135.92" y="57.728" extent="1-16" drill="0.4"/>
+<via x="136.795" y="58.603" extent="1-16" drill="0.4"/>
+<via x="135.045" y="58.603" extent="1-16" drill="0.4"/>
+<via x="135.045" y="60.353" extent="1-16" drill="0.4"/>
+<via x="136.795" y="60.353" extent="1-16" drill="0.4"/>
 <via x="77.343" y="32.512" extent="1-16" drill="0.6"/>
 <via x="93.091" y="32.512" extent="1-16" drill="0.6"/>
 <via x="35.814" y="9.652" extent="1-16" drill="0.6"/>
@@ -5193,7 +5193,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <wire x1="99.42" y1="54.478" x2="99.17" y2="54.728" width="0.3048" layer="1"/>
 <wire x1="117.17" y1="54.728" x2="117.17" y2="55.978" width="0.3048" layer="1"/>
 <wire x1="117.42" y1="54.478" x2="117.17" y2="54.728" width="0.3048" layer="1"/>
-<wire x1="127.546" y1="54.478" x2="135.17" y2="54.728" width="0" layer="19" extent="1-16"/>
+<wire x1="135.42" y1="54.478" x2="135.17" y2="54.728" width="0" layer="19" extent="1-16"/>
 <wire x1="117.42" y1="37.978" x2="117.42" y2="36.478" width="0.3048" layer="2"/>
 <wire x1="81.42" y1="37.978" x2="81.42" y2="36.478" width="0.3048" layer="2"/>
 <wire x1="81.17" y1="36.728" x2="81.17" y2="37.978" width="0.3048" layer="1"/>
@@ -5215,16 +5215,16 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <wire x1="15.494" y1="26.67" x2="25.908" y2="26.67" width="0.3048" layer="15"/>
 <wire x1="8.636" y1="35.179" x2="8.636" y2="33.528" width="0.3048" layer="15"/>
 <wire x1="8.636" y1="33.528" x2="15.494" y2="26.67" width="0.3048" layer="15"/>
-<wire x1="124.719" y1="37.978" x2="133.858" y2="37.973" width="0" layer="19" extent="1-16"/>
-<wire x1="117.42" y1="55.88" x2="126.525" y2="55.88" width="0" layer="19" extent="1-16"/>
-<wire x1="126.525" y1="55.88" x2="127.546" y2="54.478" width="0" layer="19" extent="1-16"/>
-<wire x1="135.42" y1="37.978" x2="135.42" y2="36.478" width="0" layer="19" extent="1-16"/>
-<wire x1="117.42" y1="37.978" x2="124.719" y2="37.978" width="0" layer="19" extent="1-16"/>
+<wire x1="138.435" y1="37.978" x2="139.446" y2="38.989" width="0.3048" layer="2"/>
+<wire x1="117.42" y1="55.88" x2="134.018" y2="55.88" width="0.3048" layer="2"/>
+<wire x1="134.018" y1="55.88" x2="135.42" y2="54.478" width="0.3048" layer="2"/>
+<wire x1="135.42" y1="37.978" x2="135.42" y2="36.478" width="0.3048" layer="2"/>
+<wire x1="117.42" y1="37.978" x2="135.42" y2="37.978" width="0.3048" layer="2"/>
 <wire x1="99.42" y1="37.978" x2="117.42" y2="37.978" width="0.3048" layer="2"/>
-<wire x1="135.42" y1="37.978" x2="124.719" y2="37.978" width="0" layer="19" extent="1-16"/>
-<wire x1="133.858" y1="37.973" x2="133.858" y2="51.689" width="0" layer="19" extent="1-16"/>
-<wire x1="127.546" y1="54.478" x2="130.688" y2="54.478" width="0" layer="19" extent="1-16"/>
-<wire x1="130.688" y1="54.478" x2="133.858" y2="51.689" width="0" layer="19" extent="1-16"/>
+<wire x1="135.42" y1="37.978" x2="138.435" y2="37.978" width="0.3048" layer="2"/>
+<wire x1="139.446" y1="38.989" x2="139.446" y2="51.435" width="0.3048" layer="2"/>
+<wire x1="135.42" y1="54.478" x2="136.403" y2="54.478" width="0.3048" layer="2"/>
+<wire x1="136.403" y1="54.478" x2="139.446" y2="51.435" width="0.3048" layer="2"/>
 <via x="9.42" y="54.478" extent="1-16" drill="0.3"/>
 <via x="27.42" y="54.478" extent="1-16" drill="0.3"/>
 <via x="45.42" y="54.478" extent="1-16" drill="0.3"/>
@@ -5238,10 +5238,10 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <via x="8.636" y="35.179" extent="1-16" drill="0.3"/>
 <via x="99.42" y="36.478" extent="1-16" drill="0.3"/>
 <via x="117.42" y="36.478" extent="1-16" drill="0.3"/>
-<wire x1="135.42" y1="36.478" x2="135.42" y2="36.478" width="0" layer="19" extent="1-16"/>
+<via x="135.42" y="36.478" extent="1-16" drill="0.3"/>
 <via x="99.42" y="54.478" extent="1-16" drill="0.3"/>
 <via x="117.42" y="54.478" extent="1-16" drill="0.3"/>
-<wire x1="127.546" y1="54.478" x2="127.546" y2="54.478" width="0" layer="19" extent="1-16"/>
+<via x="135.42" y="54.478" extent="1-16" drill="0.3"/>
 <via x="25.908" y="26.67" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="REPORT_N">
@@ -5334,12 +5334,12 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <wire x1="99.822" y1="35.687" x2="101.346" y2="37.211" width="0.3048" layer="2"/>
 <wire x1="101.346" y1="37.211" x2="115.697" y2="37.211" width="0.3048" layer="2"/>
 <wire x1="115.697" y1="37.211" x2="116.68" y2="36.228" width="0.3048" layer="2"/>
-<wire x1="117.221" y1="35.687" x2="117.729" y2="35.687" width="0" layer="19" extent="1-16"/>
-<wire x1="117.729" y1="35.687" x2="119.253" y2="37.211" width="0" layer="19" extent="1-16"/>
-<wire x1="119.253" y1="37.211" x2="133.687" y2="37.211" width="0" layer="19" extent="1-16"/>
-<wire x1="133.687" y1="37.211" x2="134.67" y2="36.228" width="0" layer="19" extent="1-16"/>
+<wire x1="117.221" y1="35.687" x2="117.729" y2="35.687" width="0.3048" layer="2"/>
+<wire x1="117.729" y1="35.687" x2="119.253" y2="37.211" width="0.3048" layer="2"/>
+<wire x1="119.253" y1="37.211" x2="133.687" y2="37.211" width="0.3048" layer="2"/>
+<wire x1="133.687" y1="37.211" x2="134.67" y2="36.228" width="0.3048" layer="2"/>
 <wire x1="116.68" y1="36.228" x2="116.67" y2="36.228" width="0.3048" layer="2"/>
-<wire x1="116.68" y1="36.228" x2="117.221" y2="35.687" width="0" layer="19" extent="1-16"/>
+<wire x1="116.68" y1="36.228" x2="117.221" y2="35.687" width="0.3048" layer="2"/>
 <wire x1="98.67" y1="36.204" x2="98.67" y2="36.228" width="0.3048" layer="2"/>
 <wire x1="98.67" y1="36.204" x2="99.187" y2="35.687" width="0.3048" layer="2"/>
 <wire x1="80.67" y1="36.17" x2="80.67" y2="36.228" width="0.3048" layer="2"/>
@@ -5355,12 +5355,12 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <wire x1="99.822" y1="53.721" x2="101.219" y2="55.118" width="0.3048" layer="2"/>
 <wire x1="101.219" y1="55.118" x2="115.7986" y2="55.118" width="0.3048" layer="2"/>
 <wire x1="115.7986" y1="55.118" x2="116.6886" y2="54.228" width="0.3048" layer="2"/>
-<wire x1="117.2972" y1="53.6194" x2="117.8814" y2="53.6194" width="0" layer="19" extent="1-16"/>
-<wire x1="117.8814" y1="53.6194" x2="119.38" y2="55.118" width="0" layer="19" extent="1-16"/>
-<wire x1="119.38" y1="55.118" x2="133.78" y2="55.118" width="0" layer="19" extent="1-16"/>
-<wire x1="133.78" y1="55.118" x2="133.908" y2="54.101" width="0" layer="19" extent="1-16"/>
+<wire x1="117.2972" y1="53.6194" x2="117.8814" y2="53.6194" width="0.3048" layer="2"/>
+<wire x1="117.8814" y1="53.6194" x2="119.38" y2="55.118" width="0.3048" layer="2"/>
+<wire x1="119.38" y1="55.118" x2="133.78" y2="55.118" width="0.3048" layer="2"/>
+<wire x1="133.78" y1="55.118" x2="134.67" y2="54.228" width="0.3048" layer="2"/>
 <wire x1="116.6886" y1="54.228" x2="116.67" y2="54.228" width="0.3048" layer="2"/>
-<wire x1="116.6886" y1="54.228" x2="117.2972" y2="53.6194" width="0" layer="19" extent="1-16"/>
+<wire x1="116.6886" y1="54.228" x2="117.2972" y2="53.6194" width="0.3048" layer="2"/>
 <wire x1="98.678" y1="54.228" x2="98.67" y2="54.228" width="0.3048" layer="2"/>
 <wire x1="98.679" y1="54.229" x2="98.678" y2="54.228" width="0.3048" layer="2"/>
 <wire x1="80.646" y1="54.228" x2="80.67" y2="54.228" width="0.3048" layer="2"/>
@@ -5385,10 +5385,10 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <via x="80.67" y="36.228" extent="1-16" drill="0.3"/>
 <via x="98.67" y="36.228" extent="1-16" drill="0.3"/>
 <via x="116.67" y="36.228" extent="1-16" drill="0.3"/>
-<wire x1="134.67" y1="36.228" x2="134.67" y2="36.228" width="0" layer="19" extent="1-16"/>
+<via x="134.67" y="36.228" extent="1-16" drill="0.3"/>
 <via x="98.67" y="54.228" extent="1-16" drill="0.3"/>
 <via x="116.67" y="54.228" extent="1-16" drill="0.3"/>
-<wire x1="133.908" y1="54.101" x2="133.908" y2="54.101" width="0" layer="19" extent="1-16"/>
+<via x="134.67" y="54.228" extent="1-16" drill="0.3"/>
 <via x="25.908" y="27.94" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="CONFIG1_P">
@@ -5469,9 +5469,9 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <wire x1="23.2918" y1="56.642" x2="23.293" y2="56.6432" width="0.3048" layer="2"/>
 <wire x1="95.293" y1="58.228" x2="96.42" y2="58.228" width="0.3048" layer="1"/>
 <wire x1="113.293" y1="58.228" x2="114.42" y2="58.228" width="0.3048" layer="1"/>
-<wire x1="129.707" y1="56.642" x2="131.293" y2="58.228" width="0" layer="19" extent="1-16"/>
+<wire x1="129.707" y1="56.642" x2="131.293" y2="58.228" width="0.3048" layer="2"/>
 <wire x1="95.25" y1="56.642" x2="113.284" y2="56.642" width="0.3048" layer="2"/>
-<wire x1="113.284" y1="56.642" x2="129.707" y2="56.642" width="0" layer="19" extent="1-16"/>
+<wire x1="113.284" y1="56.642" x2="129.707" y2="56.642" width="0.3048" layer="2"/>
 <wire x1="113.284" y1="58.219" x2="113.293" y2="58.228" width="0.3048" layer="2"/>
 <wire x1="113.284" y1="56.642" x2="113.284" y2="58.219" width="0.3048" layer="2"/>
 <wire x1="95.293" y1="56.685" x2="95.293" y2="58.228" width="0.3048" layer="2"/>
@@ -5492,7 +5492,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <via x="59.293" y="58.228" extent="1-16" drill="0.3"/>
 <via x="77.293" y="58.228" extent="1-16" drill="0.3"/>
 <via x="95.293" y="58.228" extent="1-16" drill="0.3"/>
-<wire x1="131.293" y1="58.228" x2="131.293" y2="58.228" width="0" layer="19" extent="1-16"/>
+<via x="131.293" y="58.228" extent="1-16" drill="0.3"/>
 <via x="113.293" y="58.228" extent="1-16" drill="0.3"/>
 <via x="45.466" y="32.131" extent="1-16" drill="0.3"/>
 <via x="40.386" y="47.371" extent="1-16" drill="0.3"/>
@@ -5537,9 +5537,9 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <wire x1="5.293" y1="40.228" x2="6.786" y2="38.735" width="0.3048" layer="2"/>
 <wire x1="95.293" y1="40.228" x2="96.42" y2="40.228" width="0.3048" layer="1"/>
 <wire x1="113.293" y1="40.228" x2="114.42" y2="40.228" width="0.3048" layer="1"/>
-<wire x1="129.8" y1="38.735" x2="131.293" y2="40.228" width="0" layer="19" extent="1-16"/>
+<wire x1="129.8" y1="38.735" x2="131.293" y2="40.228" width="0.3048" layer="2"/>
 <wire x1="95.25" y1="38.735" x2="113.284" y2="38.735" width="0.3048" layer="2"/>
-<wire x1="113.284" y1="38.735" x2="129.8" y2="38.735" width="0" layer="19" extent="1-16"/>
+<wire x1="113.284" y1="38.735" x2="129.8" y2="38.735" width="0.3048" layer="2"/>
 <wire x1="113.284" y1="40.219" x2="113.293" y2="40.228" width="0.3048" layer="2"/>
 <wire x1="113.284" y1="38.735" x2="113.284" y2="40.219" width="0.3048" layer="2"/>
 <wire x1="95.25" y1="40.185" x2="95.293" y2="40.228" width="0.3048" layer="2"/>
@@ -5556,7 +5556,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <via x="77.293" y="40.228" extent="1-16" drill="0.3"/>
 <via x="95.293" y="40.228" extent="1-16" drill="0.3"/>
 <via x="113.293" y="40.228" extent="1-16" drill="0.3"/>
-<wire x1="131.293" y1="40.228" x2="131.293" y2="40.228" width="0" layer="19" extent="1-16"/>
+<via x="131.293" y="40.228" extent="1-16" drill="0.3"/>
 <via x="44.196" y="32.131" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="N$41">
