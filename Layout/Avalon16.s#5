@@ -28198,7 +28198,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="IC20" gate="IC" pin="CONFIG_NO@35"/>
-<wire x1="402.59" y1="242.57" x2="405.13" y2="242.57" width="0.1524" layer="91"/>
+<wire x1="402.59" y1="242.57" x2="405.384" y2="242.57" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -28459,12 +28459,11 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <junction x="493.776" y="487.68"/>
 </segment>
 <segment>
+<wire x1="57.15" y1="378.714" x2="57.15" y2="384.556" width="0.1524" layer="91"/>
 <wire x1="57.15" y1="384.556" x2="50.8" y2="384.556" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="384.556" x2="50.8" y2="398.78" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="398.78" x2="34.29" y2="399.034" width="0.1524" layer="91"/>
-<pinref part="L2" gate="G$1" pin="1"/>
-<wire x1="57.15" y1="384.556" x2="57.15" y2="378.46" width="0.1524" layer="91"/>
-<junction x="57.15" y="378.46"/>
+<junction x="57.15" y="378.714"/>
+<wire x1="50.8" y1="398.78" x2="34.036" y2="398.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="34.29" y1="375.92" x2="34.29" y2="378.46" width="0.1524" layer="91"/>
@@ -28512,14 +28511,13 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <pinref part="IC8" gate="IC" pin="OVDD0@37"/>
 <pinref part="IC8" gate="IC" pin="OVDD1@24"/>
 <pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="320.04" y1="378.46" x2="321.056" y2="378.46" width="0.1524" layer="91"/>
+<wire x1="321.056" y1="378.46" x2="322.58" y2="378.46" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="378.46" x2="322.58" y2="401.32" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="401.32" x2="298.45" y2="401.32" width="0.1524" layer="91"/>
+<junction x="321.056" y="378.46"/>
 <junction x="298.45" y="401.066"/>
 <label x="298.45" y="402.844" size="0.8128" layer="95" rot="R90" xref="yes"/>
-<wire x1="322.58" y1="378.46" x2="321.31" y2="378.46" width="0.1524" layer="91"/>
-<pinref part="L4" gate="G$1" pin="1"/>
-<junction x="321.31" y="378.46"/>
-<wire x1="321.31" y1="378.46" x2="321.056" y2="378.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="430.53" y1="375.92" x2="430.53" y2="378.46" width="0.1524" layer="91"/>
@@ -29037,7 +29035,6 @@ PLL Power</text>
 <junction x="77.47" y="88.9"/>
 <wire x1="77.47" y1="88.9" x2="77.47" y2="86.36" width="0.1524" layer="91"/>
 <junction x="77.47" y="91.44"/>
-<junction x="80.01" y="86.36"/>
 </segment>
 </net>
 </nets>
