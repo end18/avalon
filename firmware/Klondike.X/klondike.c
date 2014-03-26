@@ -1,6 +1,7 @@
 /********
  * Klondike ASIC Miner - klondike.c - cmd processing and host protocol support 
  * 
+ * (C) Copyright 2014 Bang, YongHee.
  * (C) Copyright 2013 Chris Savery. 
  *
  * This program is free software: you can redistribute it and/or modify
@@ -22,10 +23,11 @@
 #include <xc.h>
 #include "klondike.h"
 
-const IDENTITY ID = { 0x10, "K16", 0xDEADBEEF };
+const IDENTITY ID = { 0x10, "IMA", 0xDEADBEEF };
 //const char FwPwd[] = FWPWD;
 
-DWORD BankRanges[8] = { 0, 0x40000000, 0x2aaaaaaa, 0x20000000, 0x19999999, 0x15555555, 0x12492492, 0x10000000 };
+//DWORD BankRanges[8] = { 0, 0x40000000, 0x2aaaaaaa, 0x20000000, 0x19999999, 0x15555555, 0x12492492, 0x10000000 };
+DWORD BankRanges[7] = { 0, 613566756, 1227133512, 1840700268, 2454267024, 3067833780, 3681400536 };
 BYTE WorkNow, BankSize, ResultQC, SlowTick, VerySlowTick, TimeOut, TempTarget, LastTemp, FanLevel;
 BYTE SlaveAddress = MASTER_ADDRESS;
 BYTE HashTime;
@@ -38,7 +40,7 @@ DWORD ClockCfg[2];
 
 INT16 Step, Error, LastError;
 
-DWORD NonceRanges[8];
+DWORD NonceRanges[7];
 
 extern I2CSTATE I2CState;
 extern DWORD PrecalcHashes[6];
@@ -118,7 +120,7 @@ void AsicPushWork(void)
 
 void DetectAsics(void)
 {
-    Status.ChipCount = 16;
+    Status.ChipCount = 14;
 
     // pre-calc nonce range values
     BankSize = (Status.ChipCount)/2;
